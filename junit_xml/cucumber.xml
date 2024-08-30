@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.285" tests="9" skipped="0" failures="0" errors="0">
+<testcase classname="basket functionality test" name="Check login with valid credentials" time="0.024">
+<system-out><![CDATA[
+Given User should launch Chrome browser.....................................passed
+When user enters valid username and password................................passed
+And clicks on login button..................................................passed
+Then user is navigated to the home page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="basket functionality test" name="Search basket items visiable or not" time="0.003">
+<system-out><![CDATA[
+Given user is on login page.................................................passed
+When user enters invalid username and password..............................passed
+And clicks on login button..................................................passed
+Then error message is displayed - Invalid Credentials.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="demo functionality test" name="Check login with valid credentials" time="0.004">
+<system-out><![CDATA[
+Given User is calculated by 1/0.............................................passed
+When user enters valid username and password................................passed
+And clicks on login button..................................................passed
+Then user is navigated to the home page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="l1 functionality test" name="Check login with credentials" time="0.006">
+<system-out><![CDATA[
+Given user is on login page.................................................passed
+When user enters invalid username and password..............................passed
+And clicks on login button..................................................passed
+Then error message is displayed - Invalid Credentials.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="l1 functionality test" name="Search basket items visiable or not" time="0.001">
+<system-out><![CDATA[
+Given user is on login page.................................................passed
+When user enters invalid username and password..............................passed
+And clicks on login button..................................................passed
+Then error message is displayed - Invalid Credentials.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="login functionality test" name="Check login with valid credentials" time="0.006">
+<system-out><![CDATA[
+Given User is calculated by 1/0.............................................passed
+When user enters valid username and password................................passed
+And clicks on login button..................................................passed
+Then user is navigated to the home page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="login functionality test" name="Check login with invalid credentials" time="0.001">
+<system-out><![CDATA[
+Given user is on login page.................................................passed
+When user enters invalid username and password..............................passed
+And clicks on login button..................................................passed
+Then error message is displayed - Invalid Credentials.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="login functionality test" name="Check login with credentials" time="0.002">
+<system-out><![CDATA[
+Given user is on login page.................................................passed
+When user enters invalid username and password..............................passed
+And clicks on login button..................................................passed
+Then error message is displayed - Invalid Credentials.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="login functionality test" name="Search basket items visiable or not" time="0.002">
+<system-out><![CDATA[
+Given user is on login page.................................................passed
+When user enters invalid username and password..............................passed
+And clicks on login button..................................................passed
+Then error message is displayed - Invalid Credentials.......................passed
+]]></system-out>
+</testcase>
+</testsuite>
